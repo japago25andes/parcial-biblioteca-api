@@ -10,29 +10,35 @@ de **2 horas**.
 
 ## 🎓 Instrucciones de entrega
 
-Individual. Debes entregar un `.zip` con la siguiente estructura:
+Individual. Usa las plantillas de la carpeta [`plantillas/`](plantillas/):
+
+- `plantillaPlanDePruebas.xlsx` — un plan de pruebas por endpoint, con todos sus casos de prueba.
+- `plantillaCasoDePrueba.docx` — un Word por cada caso de prueba ejecutado.
+- `plantillaReporteDeBug.docx` — un Word por cada bug encontrado.
+
+Debes entregar un `.zip` con la siguiente estructura:
 
 ```
 Nombre_Apellido_Parcial/
   libros-post/
-    plan-pruebas.___        # plan de pruebas (plantilla del profesor) con todos los casos de este endpoint
-    caso-01.docx             # un Word por cada caso de prueba ejecutado
+    plan-pruebas.xlsx        # a partir de plantillaPlanDePruebas.xlsx
+    caso-01.docx              # a partir de plantillaCasoDePrueba.docx, uno por caso
     caso-02.docx
     ...
   libros-get-id/
-    plan-pruebas.___
+    plan-pruebas.xlsx
     caso-01.docx
     ...
   prestamos-post/
-    plan-pruebas.___
+    plan-pruebas.xlsx
     caso-01.docx
     ...
   prestamos-devolver/
-    plan-pruebas.___
+    plan-pruebas.xlsx
     caso-01.docx
     ...
   bugs-encontrados/
-    bug-01.docx              # un Word por cada bug encontrado, con su documentación
+    bug-01.docx               # a partir de plantillaReporteDeBug.docx, uno por bug
     bug-02.docx
     ...
 ```
