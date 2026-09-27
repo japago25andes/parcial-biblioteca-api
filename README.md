@@ -1,7 +1,50 @@
 # 📚 API Biblioteca
 
 API REST simple para gestión de préstamos de una biblioteca, construida con **Python + Flask + PostgreSQL**.
-Diseñada para la práctica de **pruebas de software** (parcial).
+
+Este proyecto es el **parcial** de la asignatura de Ingeniería de Software III. La API contiene bugs
+intencionales que debes encontrar mediante pruebas de caja negra sobre los 4 endpoints, en un máximo
+de **2 horas**.
+
+---
+
+## 🎓 Instrucciones de entrega
+
+Individual. Debes entregar un `.zip` con la siguiente estructura:
+
+```
+Nombre_Apellido_Parcial/
+  libros-post/
+    plan-pruebas.___        # plan de pruebas (plantilla del profesor) con todos los casos de este endpoint
+    caso-01.docx             # un Word por cada caso de prueba ejecutado
+    caso-02.docx
+    ...
+  libros-get-id/
+    plan-pruebas.___
+    caso-01.docx
+    ...
+  prestamos-post/
+    plan-pruebas.___
+    caso-01.docx
+    ...
+  prestamos-devolver/
+    plan-pruebas.___
+    caso-01.docx
+    ...
+  bugs-encontrados/
+    bug-01.docx              # un Word por cada bug encontrado, con su documentación
+    bug-02.docx
+    ...
+```
+
+Cada Word de **caso de prueba** debe documentar: ID del caso, endpoint, descripción, request enviado,
+respuesta esperada, respuesta obtenida, resultado (pasa/falla) y evidencia (captura).
+
+Cada Word de **bug** debe documentar: título del bug, endpoint, pasos para reproducir, resultado
+esperado vs. obtenido, severidad y evidencia (captura).
+
+Comprime la carpeta como **`Nombre_Apellido_Parcial.zip`** y envíala por correo a
+**johna.pardog@unilibre.edu.co**.
 
 ---
 
