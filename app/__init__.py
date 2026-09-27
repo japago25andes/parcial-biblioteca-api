@@ -12,7 +12,7 @@ def create_app():
     app = Flask(__name__)
 
     app.config["SQLALCHEMY_DATABASE_URI"] = (
-        f"postgresql://{os.environ.get('DB_USER', 'biblioteca_user')}"
+        f"postgresql+psycopg2://{os.environ.get('DB_USER', 'biblioteca_user')}"
         f":{os.environ.get('DB_PASSWORD', 'biblioteca_pass')}"
         f"@{os.environ.get('DB_HOST', 'localhost')}"
         f":{os.environ.get('DB_PORT', '5432')}"
